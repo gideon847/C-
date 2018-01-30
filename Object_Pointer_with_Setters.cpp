@@ -32,7 +32,7 @@ int main()
       Human human[4]; // Creating Object Array
       Human *hptr;
       hptr = human;
-
+   /*  */ 
    (hptr+0)->set_age(6);//setting at the index[0]
    (hptr+1)->set_age(7);//setting at the index[1]
    (hptr+2)->set_age(8);//setting at the index[2]
@@ -41,6 +41,12 @@ int main()
  for (int i = 0; i <4;i++){
    cout << (hptr+i)->get_age(); // iterating the array
  }
-
+    //
+  /*  uncomment this out to get the same result
+   cout << human[0].getAge(); // outputs 6
+   cout << human[1].getAge(); // outputs 7
+   cout << human[2].getAge(); // outputs 8
+   cout << human[3].getAge(); // outputs 9
+   */
 
 }
