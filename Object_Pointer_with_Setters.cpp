@@ -29,7 +29,7 @@ int Human::get_age(){
 
 int main()
 {
-      Human human[4];
+      Human human[4]; // Creating Object Array
       Human *hptr;
       hptr = human;
 
@@ -39,7 +39,7 @@ int main()
    (hptr+3)->set_age(9);//setting at the index[3]
 
  for (int i = 0; i <4;i++){
-   cout << (hptr+i)->get_age();
+   cout << (hptr+i)->get_age(); // iterating the array
  }
 
 
