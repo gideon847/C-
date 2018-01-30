@@ -1,5 +1,12 @@
-#include <iostream>
+/*
+Author: Gideon Asare
+Topic : Object pointer with setters
+Date : 28th January 2018
+Email: kofiowusu847@gmail.com
+Language: C++
+*/
 
+#include <iostream>
 using namespace std;
 
 // Object pointer using the setter with pointer
